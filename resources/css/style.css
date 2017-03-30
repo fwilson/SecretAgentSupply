@@ -41,8 +41,8 @@ header span {
   text-transform: uppercase;
   font-size: 1rem;
   font-weight: normal;
-  margin-top: 0.66rem;
-  margin-bottom: 0.66rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 /*Banner*/
@@ -74,13 +74,14 @@ header span {
 
 .overlay h1 {
   font-size: 2rem;
+  line-height: 2.5rem;
   margin: 0 0;
 }
 
 .overlay h3 {
   font-size: 1rem;
   margin: 0 0;
-  padding-bottom: 0.25rem;
+  padding-bottom: 0.5rem;
 }
 
 /*Nav Bar*/
@@ -265,10 +266,12 @@ footer p {
 
   .overlay h1 {
     font-size: 1rem;
+    line-height: 1.25rem;
   }
 
   .overlay h3 {
     font-size: 0.77rem;
+    padding-bottom: 0.25rem;
   }
 
   /*change gallery display*/
