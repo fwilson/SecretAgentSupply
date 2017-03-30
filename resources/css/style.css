@@ -5,10 +5,6 @@ html {
   font-family: Helvetica;
 }
 
-body {
-  margin: 0 0;
-}
-
 .site-container {
   display: flex;
   width: 960px;
