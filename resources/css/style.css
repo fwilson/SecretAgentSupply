@@ -100,12 +100,13 @@ ul {
   width: 100%;
   list-style: none;
   padding-left: 0px;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 ul a {
   color: white;
   text-decoration: none;
-  padding: 0.75rem auto;
 }
 
 .nav span {
@@ -187,6 +188,7 @@ div.info-holder {
 .info-holder span {
   opacity: 0.8;
   margin-top: 2rem;
+  padding-left: 2rem;
 }
 
 /*Footer*/
@@ -204,4 +206,100 @@ footer {
 footer p {
   color: white;
   margin: auto 0px;
+}
+
+/*Tablet Design*/
+
+@media only screen and (max-width: 1024px) {
+
+  /*change site-container behavior*/
+  .site-container {
+    width: 100%;
+  }
+
+  footer p {
+    padding-left: 2rem;
+  }
+
+  /*Hide nav show menu button*/
+  ul {
+    display: none;
+  }
+
+  .nav span {
+    display: block;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  /*change gallery display*/
+  div.gallery-holder {
+    width: 47%;
+  }
+
+  #glasses {
+    display: none;
+  }
+
+}
+
+/*Mobile Design*/
+
+@media only screen and (max-width: 470px) {
+
+  /*banner*/
+  .banner-container {
+    height: 15rem;
+  }
+
+  .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .overlay {
+    padding: 1rem 2rem;
+    width: 100%;
+  }
+
+  .overlay h1 {
+    font-size: 1rem;
+  }
+
+  .overlay h3 {
+    font-size: 0.77rem;
+  }
+
+  /*change gallery display*/
+  .gallery {
+    justify-content: center;
+  }
+
+  div.gallery-holder {
+    width: 90%;
+  }
+
+  #watch {
+    display: none;
+  }
+
+  .info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  div.info-holder {
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+
+  footer p {
+    padding-left: 0rem;
+    width: 100%;
+    text-align: center;
+  }
+
 }
